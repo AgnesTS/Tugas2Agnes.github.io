@@ -1,0 +1,82 @@
+<!--
+Nama 		: Agnes Tryani Simbolon
+NIM			: 211402003
+Kelas		: Kom C
+Deskripsi   : registrasi.html 
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+	<h3><font-color="#00FFFF">Registration Form</h3>
+<tr>
+		<fieldset>
+			<legend>Your Biodata :</legend>
+		</fieldset>
+		<legend>
+			Personal information:
+		</legend>
+		
+		<form method="post"action="#" onsumbit="return validasi_input(this)">
+		<tr>
+		<td>Nama Pertama:</td>
+		<td>
+		<input type="text" name="username" placeholder="Nama Pertama Anda" required><br><br>
+		</td>
+		</tr>
+		<tr>
+		<td>Nama Akhir:</td>
+		<td>
+		<input type="text" name="username" placeholder="Nama Akhir Anda" required>
+		</td>
+		</tr>
+		<tr>
+		<br>
+		<td>City:</td> 
+		<select required>
+		<option value="	medan">Medan</option>
+		<option value="jakarta">Jakarta</option>
+		<option value="Bandung">Bandung</option>
+		<option value="Bali">Bali</option>
+		<option value="dll">dll</option>
+		</select>
+		</td>
+		<br>
+		<td>Gender:
+		<br>
+		<input type="radio" name="gender" value="male" checked> Male  
+		<br>
+		<input type="radio" name="gender" value="female"> Female
+		</td>
+		</tr>
+		<br>
+		<td>Pengguna Produk :</td>
+			<tr>
+			<div class="checkbox"><input type="checkbox" name="Reading">Ya<input type="checkbox" name="Writing">Tidak <br><br>
+			</tr>
+		<td> Password:
+		<td>
+		<input type="text" name="Password" placeholder="Masukkan Password Anda" required>
+		</td>
+
+		</fieldset>
+		
+		<fieldset>
+		<legend>General Information</legend>
+			Comment
+		<textarea name="comment" rows="10" cols="30">I am </textarea>
+		<p><input type="submit" value="Submit">   
+		<input type="reset" value="Reset"><p>   
+		</fieldset>  
+	</fieldset>
+</form> 
+<hr>
+<center><b>Copyright by AGNES</b></center>
+		</tr>
+</center>
+</body>  
+</html>

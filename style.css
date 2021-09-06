@@ -1,0 +1,44 @@
+body{
+	margin-top: 4cm;
+	margin-right: 3cm;
+	margin-bottom: 3cm;
+	margin-left: 4cm;
+	background-image:url(img/background.jpg);
+}
+
+#div-1{
+	width: 400px;
+	float: left
+}
+#div-2{
+	width:200px;
+	float: right;
+}
+#contact{
+	list-style-type: circle;
+	font-family: Verdana;
+	text-decoration: underline;
+}
+.list-1 {
+	list-style-position: inside;
+}
+.list-2{
+	list-style-type: circle;
+}
+section_fieldset1 {
+			width: 120px;
+			border: 1px solid black;
+		}
+figure-1{
+		float: left;
+		width: 60%;
+		}
+figure-2{
+		float: right;
+		}
+p{
+	text-align: right;
+}
+.test{
+	float=right;
+}
